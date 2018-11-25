@@ -43,7 +43,7 @@ function sendUser ($name, $gender, $age, $mailaddress, $content) {
 
     $header = "From:".MAIL_ADMIN;
 
-    $message = "フォトグラファー蒲生のホームページです。\nこの度はお問い合わせいただき、誠にありがとうございます。\n\n";
+    $message = "フォトグラファー・・のホームページです。\nこの度はお問い合わせいただき、誠にありがとうございます。\n\n";
     $message .= "下記、お問い合わせいただきました内容です\n";
     $message .= "----------\n";
     $message .= "【お名前】\n".$name."\n\n";
